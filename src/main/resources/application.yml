@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8084
 
 spring:
   application:
@@ -7,9 +7,8 @@ spring:
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/vitmvit/spring-cloud-service.git
-          username: vitmvit
-          password: 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
-          default-label: main
-          search-paths: "{application}"
+        native:
+          search-locations:
+            - classpath:/configs
+  profiles:
+    active: native
