@@ -23,9 +23,6 @@ cache:
   capacity: 15
 
 feign:
-  auth-service:
-    value: authService
-    url: http://localhost:8081/api/auth
   comments-service:
     value: commentService
     url: http://localhost:8083/api/comments

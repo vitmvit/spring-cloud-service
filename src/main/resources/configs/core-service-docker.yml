@@ -34,4 +34,6 @@ feign:
   news-service:
     value: newsService
     url-news: http://news-service:8082/api/news
-    url-comments: http://news-service:8082/api/comments
+  comment-service:
+    value: commentService
+    url-comments: http://comment-service:8083/api/comments

@@ -33,9 +33,6 @@ springdoc:
     path: /api/doc/
 
 feign:
-  auth-service:
-    value: authService
-    url: http://auth-service:8081/api/auth
   comments-service:
     value: commentService
     url: http://comments-service:8083/api/comments

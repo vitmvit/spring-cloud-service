@@ -56,3 +56,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+.gradle
+.idea
+build
+gradle
+gradlew
+gradlew.bat

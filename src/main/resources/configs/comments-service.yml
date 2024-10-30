@@ -21,8 +21,3 @@ starter:
     enabled: true
   handler:
     enabled: true
-
-feign:
-  auth-service:
-    value: authService
-    url: http://localhost:8081/api/auth

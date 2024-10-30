@@ -31,8 +31,3 @@ springdoc:
   swagger-ui:
     enabled: true
     path: /api/doc/
-
-feign:
-  auth-service:
-    value: authService
-    url: http://auth-service:8081/api/auth

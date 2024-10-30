@@ -23,4 +23,6 @@ feign:
   news-service:
     value: newsService
     url-news: http://localhost:8082/api/news
-    url-comments: http://localhost:8082/api/comments
+  comment-service:
+    value: commentService
+    url-comments: http://localhost:8083/api/comments
